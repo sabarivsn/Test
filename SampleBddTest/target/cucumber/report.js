@@ -28,14 +28,14 @@ formatter.match({
   "location": "steps.i_do_this()"
 });
 formatter.result({
-  "duration": 682311858,
+  "duration": 581528099,
   "status": "passed"
 });
 formatter.match({
   "location": "steps.it_should_be_like_this()"
 });
 formatter.result({
-  "duration": 58667,
+  "duration": 523251,
   "status": "passed"
 });
 });

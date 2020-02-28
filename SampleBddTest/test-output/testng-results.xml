@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-02-28T10:28:11Z" name="Command line suite" finished-at="2020-02-28T10:28:13Z" duration-ms="1834">
+  <suite started-at="2020-02-28T11:16:21Z" name="Command line suite" finished-at="2020-02-28T11:16:22Z" duration-ms="1731">
     <groups>
     </groups>
-    <test started-at="2020-02-28T10:28:11Z" name="Command line test" finished-at="2020-02-28T10:28:13Z" duration-ms="1834">
+    <test started-at="2020-02-28T11:16:21Z" name="Command line test" finished-at="2020-02-28T11:16:22Z" duration-ms="1731">
       <class name="com.qa.sample.CucumberTestRunner">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.sample.CucumberTestRunner@76329302]" started-at="2020-02-28T10:28:11Z" name="setup" finished-at="2020-02-28T10:28:11Z" duration-ms="625" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.sample.CucumberTestRunner@3ffcd140]" started-at="2020-02-28T11:16:21Z" name="setup" finished-at="2020-02-28T11:16:21Z" duration-ms="619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.sample.CucumberTestRunner@76329302]" started-at="2020-02-28T10:28:12Z" name="test" data-provider="features" finished-at="2020-02-28T10:28:12Z" duration-ms="762" status="PASS">
+        <test-method signature="test(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.sample.CucumberTestRunner@3ffcd140]" started-at="2020-02-28T11:16:21Z" name="test" data-provider="features" finished-at="2020-02-28T11:16:22Z" duration-ms="647" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="clean()[pri:0, instance:com.qa.sample.CucumberTestRunner@76329302]" started-at="2020-02-28T10:28:12Z" name="clean" finished-at="2020-02-28T10:28:13Z" duration-ms="217" status="PASS">
+        <test-method is-config="true" signature="clean()[pri:0, instance:com.qa.sample.CucumberTestRunner@3ffcd140]" started-at="2020-02-28T11:16:22Z" name="clean" finished-at="2020-02-28T11:16:22Z" duration-ms="202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clean -->
