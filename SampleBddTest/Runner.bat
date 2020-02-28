@@ -1,3 +1,3 @@
 cd %~dp0
-java -cp bin;lib/*; com.qa.sample.Runner
+java -cp build\classes\java\main;lib/*; com.qa.sample.Runner
 pause
