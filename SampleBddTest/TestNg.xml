@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Bdd Tests" verbose="3" parallel="tests" thread-count="1">
+    <test name="Test1">
+        <classes>
+            <class name="com.qa.sample.Runner" />
+        </classes>
+    </test>
+</suite>

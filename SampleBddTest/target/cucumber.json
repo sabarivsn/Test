@@ -1,0 +1,46 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Check poc is working",
+        "description": "",
+        "id": "check-the-poc;check-poc-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 682311858,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I do this",
+            "match": {
+              "location": "steps.i_do_this()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58667,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "it should be like this",
+            "match": {
+              "location": "steps.it_should_be_like_this()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check the poc",
+    "description": "",
+    "id": "check-the-poc",
+    "keyword": "Feature",
+    "uri": "sample.feature"
+  }
+]
