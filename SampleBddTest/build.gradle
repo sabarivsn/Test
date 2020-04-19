@@ -24,3 +24,8 @@ repositories {
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
 }
+
+task libs(type : Sync){
+	from configurations.runtime
+	into "build/libs"
+}
